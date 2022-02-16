@@ -1,0 +1,7 @@
+name: DeluxeWithdrawSuperMobcoinsAddon
+main: dev.norska.dwaddon.smc.SMCAddon
+version: Build 1
+author: Norska
+website: "https://norska.dev"
+api-version: 1.13
+depend: [DeluxeWithdraw]
