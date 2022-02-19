@@ -91,4 +91,10 @@ public class SMCInterface implements DWAddonInterface {
 		return SMCAddon.getInstance().getNHandler().getCacheHandler().getCommands();
 	}
 
+	@Override
+	public void reloadConfiguration() {
+		SMCAddon.getInstance().generateFiles();
+		SMCAddon.getInstance().cache();
+	}
+
 }
