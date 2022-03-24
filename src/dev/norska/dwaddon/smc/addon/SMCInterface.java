@@ -97,4 +97,9 @@ public class SMCInterface implements DWAddonInterface {
 		SMCAddon.getInstance().cache();
 	}
 
+	@Override
+	public Boolean useInt() {
+		return true;
+	}
+
 }
