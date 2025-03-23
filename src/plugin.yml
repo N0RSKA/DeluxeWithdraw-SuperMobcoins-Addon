@@ -1,6 +1,6 @@
-name: DeluxeWithdrawSuperMobcoinsAddon
+name: DWA-SuperMobcoins
 main: dev.norska.dwaddon.smc.SMCAddon
-version: Build 2a
+version: 2025.03
 author: Norska
 website: "https://norska.dev"
 api-version: 1.13
